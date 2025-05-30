@@ -1,0 +1,23 @@
+# Core
+crewai>=0.18.0
+langchain>=0.1.17
+openai>=1.24.1
+python-dotenv>=1.0.1
+dateparser>=1.1.8
+
+# HTTP requests for tools
+requests>=2.31.0
+
+# For tool registration and decorators
+tqdm>=4.66.2
+
+# Optional: for streaming or async tool support
+aiohttp>=3.9.3
+
+# Optional: if you use Streamlit for UI later
+# streamlit>=1.34.0
+
+# If using LangGraph for workflow orchestration
+# langgraph>=0.0.40
+
+# MCP-style integrations (custom tools built on requests + decorators)
