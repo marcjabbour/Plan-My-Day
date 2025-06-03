@@ -39,5 +39,5 @@ class MCPClient:
             retriever=retriever,
             return_source_documents=False
         )
-        answer = qa.run("Summarize the most interesting outdoor activities in NYC.")
+        answer = qa.run("Summarize the most interesting activities in the desired location.")
         return answer

@@ -28,7 +28,8 @@ def create_planner_crew():
 
     crew = Crew(
         agents=[planner_agent, weather_agent, activity_agent],
-        tasks=[planner_task, weather_task, activity_task]
+        tasks=[planner_task, weather_task, activity_task],
+        verbose=True
     )
 
     return crew

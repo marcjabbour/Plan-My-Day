@@ -7,6 +7,6 @@ def get_activity_task(activity_agent):
             "based on the weather. Consider any other details relayed in the user's prompt: '{topic}'."
         ),
         agent=activity_agent,
-        expected_output="A short list of 2–3 fun, real-time activity ideas for the user.",
+        expected_output="Acknowledge the weather, and other details relayed by the user, and generate a short list of 2–3 fun, real-time activity ideas for the user.",
         input_variables=["topic"]
     )
