@@ -1,11 +1,13 @@
 # Core
 crewai>=0.18.0
+crewai-tools[mcp]
 langchain>=0.1.17
 openai>=1.24.1
 python-dotenv>=1.0.1
 dateparser>=1.1.8
 tavily-python
 faiss-cpu>=1.7.4
+mcp
 
 # HTTP requests for tools
 requests>=2.31.0
